@@ -1,112 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="assets/icons/fav-icon.png"
-      type="image/x-icon" />
-    <link rel="stylesheet" href="assets/output.css" />
-    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
-      rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
-      rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="assets/swiper/package/swiper-bundle.min.css" />
+<?php include_once 'components/navbar.php'; ?>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="assets/aos-master/dist/aos.css" />
-    <link rel="stylesheet" href="assets/aos-master/dist/aos.js" />
-    <script src="assets/swiper/package/swiper-bundle.js" defer></script>
-    <script src="src/script.js" defer></script>
-    <title>Scotchy Grill || Cath Ah Vibe!!</title>
-  </head>
-  <body class="relative">
-    <header
-      class="fixed mobilemd:inset-y-7 mobilesm:inset-y-5 top-8 lg:inset-x-20 mobilemd:inset-x-8 mobilesm:inset-x-5 left-7 mobilemd:w-10/12 mx-auto w-10/12 ring-1 ring-scotchy-yellow-300 tabletlg:h-28 h-20 py-10 rounded-2xl z-40 scotchy-header">
-      <nav
-        class="flex items-center justify-between mobilesm:px-10 mobilexs:px-6 px-4 h-full relative">
-        <a href="index.html"
-          ><img
-            src="assets/icons/fav-icon.png"
-            class="tabletlg:w-full tabletlg:h-full w-9/12 h-9/12"
-            alt="scotchy-grill-logo"
-        /></a>
-        <ul class="justify-evenly laptopmd:w-6/12 w-7/12 tabletmd:flex hidden">
-          <li><a href="index.html" class="scotchy-navlinks active">Home</a></li>
-          <li><a href="menu.html" class="scotchy-navlinks">Menu</a></li>
-          <li><a href="about.html" class="scotchy-navlinks">About us</a></li>
-          <li>
-            <a href="contact.html" class="scotchy-navlinks">Contact us</a>
-          </li>
-          <li>
-            <a href="#" class="scotchy-navlinks">Blog</a>
-          </li>
-        </ul>
-        <button
-          class="scotchy-btn-primary tabletmd:w-2/12 w-4/12 mobilemd:block hidden">
-          Book
-        </button>
-        <button
-          class="scotchy-btn-primary mobilelg:w-1/12 w-2/12 tabletmd:hidden block scotchy-burger">
-          <span class="fa fa-bars text-3xl"></span>
-        </button>
-      </nav>
-    </header>
-    <div
-      class="fixed right-0 bg-scotchy-yellow-300 mobilelg:w-6/12 w-8/12 p-5 h-full z-40 text-scotchy-black scotchy-mobile--nav transition-all duration-500 ease-linear hidden">
-      <div class="relative">
-        <span
-          class="fa fa-close scotchy-close text-scotchy-red-600 text-3xl absolute right-0 top-0 cursor-pointer"></span>
-
-        <ul class="justify-evenly w-full flex flex-col gap-5">
-          <li>
-            <a
-              href="index.html"
-              class="scotchy-navlinks active text-scotchy-black"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a href="menu.html" class="scotchy-navlinks text-scotchy-black"
-              >Menu</a
-            >
-          </li>
-          <li>
-            <a href="about.html" class="scotchy-navlinks text-scotchy-black"
-              >About us</a
-            >
-          </li>
-          <li>
-            <a href="contact.html" class="scotchy-navlinks text-scotchy-black"
-              >Contact us</a
-            >
-          </li>
-          <li>
-            <a href="#" class="scotchy-navlinks text-scotchy-black"
-              >Blog</a
-            >
-          </li>
-          <button class="scotchy-btn-primary w-8/12">Book</button>
-        </ul>
-      </div>
-    </div>
-    <main class="">
+  <main class="">
       <section class="mx-auto w-full">
         <div class="tabletmd:block hidden">
           <video
@@ -209,22 +103,22 @@
           <div
             data-aos-once="false"
             data-aos="zoom-in-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="cook"></div>
           <div
             data-aos-once="false"
             data-aos="zoom-in-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="cook"></div>
           <div
             data-aos-once="false"
             data-aos="zoom-in-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="cook"></div>
           <div
             data-aos-once="false"
             data-aos="zoom-in-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="cook"></div>
         </div>
         <div
@@ -248,12 +142,10 @@
               class="text-scotchy-green-400 font-extrabold text-3xl island-moments-regular"
               >Marlon Llewellyn</span
             >
-            <button
-              class="scotchy-btn-ghost mobilesm:w-6/12 w-8/12 flex items-center justify-center gap-5">
+            <a href="about" class="scotchy-btn-ghost mobilesm:w-6/12 w-8/12 flex items-center justify-center gap-5"> 
               Read full story
-              <i
-                class="fa fa-long-arrow-right font-thin text-scotchy-black"></i>
-            </button>
+              <i class="fa fa-long-arrow-right font-thin text-scotchy-black"></i>
+            </a>
           </div>
           <div
             class="absolute right-0 bottom-0"
@@ -421,7 +313,7 @@
                 >See more of our delicious menu</span
               >
               <a
-                href="menu.html"
+                href="menu.php"
                 class="scotchy-btn-menu mobilesm:w-5/12 w-8/12 flex items-center justify-center gap-5 relative">
                 See full menu
                 <i
@@ -473,7 +365,7 @@
             <div class="relative">
               <span
                 class="absolute h-9 w-9 bg-[#f8cb00d1] rounded-full -left-3"></span>
-              <a href="" class="underline text-lg text-scotchy-white"
+              <a href="https://fisherstestkitchen.com" target="_blank" class="underline text-lg text-scotchy-white"
                 >www.fisherstestkitchen.com</a
               >
             </div>
@@ -525,23 +417,11 @@
               class="w-full h-full border-8 border-scotchy-red-600" />
           </div>
         </div>
-        <img
-          src="assets/images/donut-green.svg"
-          alt=""
-          class="absolute mobilelg:top-32 top-10 left-10" /><img
-          src="assets/images/donut-bg-brown.svg"
-          alt=""
-          class="absolute bottom-3 mobilelg:left-20 left-5 w-28" /><img
-          src="assets/images/donut-yellow.svg"
-          alt=""
-          class="absolute top-16 tabletlg:right-[470px] right-[270px] -z-10 w-20" />
-        <img
-          src="assets/images/donut-white.svg"
-          alt=""
-          class="absolute bottom-10 tabletlg:right-[580px] mobilelg:right-[350px] right-14" /><img
-          src="assets/images/donut-orange.svg"
-          alt=""
-          class="absolute bottom-5 tabletlg:right-[545px] mobilelg:right-[320px] right-10" />
+        <img src="assets/images/donut-green.svg" alt="" class="absolute mobilelg:top-32 top-10 left-10" />
+        <img src="assets/images/donut-bg-brown.svg" alt="" class="absolute bottom-3 mobilelg:left-20 left-5 w-28" />
+        <img src="assets/images/donut-yellow.svg" alt="" class="absolute top-16 tabletlg:right-[470px] right-[270px] -z-10 w-20" />
+        <img src="assets/images/donut-white.svg" alt="" class="absolute bottom-10 tabletlg:right-[580px] mobilelg:right-[350px] right-14" />
+        <img src="assets/images/donut-orange.svg" alt="" class="absolute bottom-5 tabletlg:right-[545px] mobilelg:right-[320px] right-10" />
       </section>
       <section class="container bliss mx-auto pt-20">
         <div class="flex flex-col gap-12 items-center justify-center w-full">
@@ -557,139 +437,121 @@
               data-aos-anchor-placement="top-center"
               data-aos-duration="1000"
               data-aos-once="false">
-              <div class="swiper-wrapper w-full">
-                <div class="swiper-slide">
-                  <div class="w-full h-full">
-                    <div class="w-full">
-                      <img
-                        src="assets/images/food-6.png"
-                        alt=""
-                        class="border-2 border-scotchy-black w-full h-72 object-cover" />
-                    </div>
-                    <div
-                      class="relative flex flex-col gap-8 items-center blog-details justify-center">
-                      <h3
-                        class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
-                        Indiana Minority Business Magazine
-                      </h3>
-                      <div
-                        class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
-                        <span
-                          class="tabletlg:text-base text-sm text-scotchy-black font-normal"
-                          >Aug 14,2024
-                        </span>
-                        <img
-                          src="assets/images/donut-bg-brown.svg"
-                          class="w-12 rounded-full absolute right-3 z-0 top-9" />
+              <div class="swiper-wrapper w-full" id="blog-slider">
+              <?php
 
-                        <a
-                          href=""
-                          class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold">
-                          Read Article <i class="fa fa-arrow-right"></i>
-                        </a>
+                function getContentImage($cover_photo_id) {
+                  $img_url = null;
+                  $assetType = null;
+                  try {
+                    $curl = curl_init();
+                    curl_setopt_array($curl, array(
+                      CURLOPT_URL => 'https://cdn.contentful.com/spaces/xyx3qihk2z0u/assets/'. $cover_photo_id,
+                      CURLOPT_RETURNTRANSFER => true,
+                      CURLOPT_ENCODING => '',
+                      CURLOPT_MAXREDIRS => 10,
+                      CURLOPT_TIMEOUT => 0,
+                      CURLOPT_FOLLOWLOCATION => true,
+                      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                      CURLOPT_CUSTOMREQUEST => 'GET',
+                      CURLOPT_HTTPHEADER => array(
+                        'Authorization: Bearer P31txDdPNpo5Dd8Jsne8hzEaSa35lba4lUDQ3tjkzws'
+                      ),
+                    ));
+    
+                    $response = curl_exec($curl);
+    
+                    curl_close($curl);
+                    $img_data = json_decode($response, true);
+                      // dd($img_data);
+                      
+                      if(!empty($img_data['fields'])) {
+                          $img_url = $img_data['fields']['file']["url"];
+                          $assetType = $img_data['sys']['type']; 
+                      }
+                      return array('imageUrl' => $img_url, 'assetType' => $assetType);
+                  } catch (\Exception $e) {
+                      // Handle any exceptions (e.g., network errors, invalid responses)
+                      return array('imageUrl' => $img_url, 'assetType' => $assetType);
+                  }
+                }
+
+                $curl = curl_init();
+
+                curl_setopt_array($curl, array(
+                  CURLOPT_URL => 'https://cdn.contentful.com/spaces/xyx3qihk2z0u/environments/Production/entries?content_type=scotchyGrillExternalArticle',
+                  CURLOPT_RETURNTRANSFER => true,
+                  CURLOPT_ENCODING => '',
+                  CURLOPT_MAXREDIRS => 10,
+                  CURLOPT_TIMEOUT => 0,
+                  CURLOPT_FOLLOWLOCATION => true,
+                  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                  CURLOPT_CUSTOMREQUEST => 'GET',
+                  CURLOPT_HTTPHEADER => array(
+                    'Authorization: Bearer P31txDdPNpo5Dd8Jsne8hzEaSa35lba4lUDQ3tjkzws'
+                  ),
+                ));
+
+                $response = curl_exec($curl);
+
+                curl_close($curl);
+                $response = json_decode($response);
+                // print_r($response->items[2]->fields);
+              
+                  
+                ?>
+                <?php foreach($response->items as $item): 
+                  $dateObj = new DateTime($item->fields->articleDate); 
+                  $formattedDate = $dateObj->format('M d, Y');
+                ?>
+
+                    <?php 
+                      if( property_exists($item->fields, 'thumbnailPhoto')){
+                        $image_id =  $item->fields->thumbnailPhoto->sys->id;
+                        $asset = getContentImage($image_id);
+                        $image = $asset['imageUrl'];
+                      }else{
+                        $image = "assets/images/scotchy-log.svg";
+                      }
+                    ?>
+                      
+                  
+                    <div class="swiper-slide">
+                      <div class="w-full h-full">
+                        <div class="w-full">
+                          <img
+                            src="<?=$image?> "
+                            alt=""
+                            class="border-2 border-scotchy-black w-full h-72 object-cover" />
+                        </div>
+                        <div
+                          class="relative flex flex-col gap-8 items-center blog-details justify-center">
+                          <h3
+                            class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
+                            <?=$item->fields->title?>
+                          </h3>
+                          <div
+                            class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
+                            <span
+                              class="tabletlg:text-base text-sm text-scotchy-black font-normal"
+                              ><?= $formattedDate?>
+                            </span>
+                            <img
+                              src="assets/images/donut-bg-brown.svg"
+                              class="w-12 rounded-full absolute right-3 z-0 top-9" />
+
+                            <a 
+                              href="<?=$item->fields->link?>" 
+                              target="_blank" 
+                              class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold"
+                            >
+                              Read Article <i class="fa fa-arrow-right"></i>
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="w-full h-full">
-                    <div class="w-full">
-                      <img
-                        src="assets/images/food-7.png"
-                        alt=""
-                        class="border-2 border-scotchy-black w-full h-72 object-cover" />
-                    </div>
-                    <div
-                      class="relative flex flex-col gap-8 items-center blog-details py-2 justify-center">
-                      <h3
-                        class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
-                        Indiana Minority Business Magazine
-                      </h3>
-                      <div
-                        class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
-                        <span
-                          class="tabletlg:text-base text-sm text-scotchy-black font-normal"
-                          >Aug 14,2024
-                        </span>
-                        <img
-                          src="assets/images/donut-bg-brown.svg"
-                          class="w-12 rounded-full absolute right-3 z-0 top-9" />
-
-                        <a
-                          href=""
-                          class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold">
-                          Read Article <i class="fa fa-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="w-full h-full">
-                    <div class="w-full">
-                      <img
-                        src="assets/images/food-3.png"
-                        alt=""
-                        class="border-2 border-scotchy-black w-full h-72 object-cover" />
-                    </div>
-                    <div
-                      class="relative flex flex-col gap-8 items-center blog-details py-2 justify-center">
-                      <h3
-                        class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
-                        Indiana Minority Business Magazine
-                      </h3>
-                      <div
-                        class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
-                        <span
-                          class="tabletlg:text-base text-sm text-scotchy-black font-normal"
-                          >Aug 14,2024
-                        </span>
-                        <img
-                          src="assets/images/donut-bg-brown.svg"
-                          class="w-12 rounded-full absolute right-3 z-0 top-9" />
-
-                        <a
-                          href=""
-                          class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold">
-                          Read Article <i class="fa fa-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="w-full h-full">
-                    <div class="w-full">
-                      <img
-                        src="assets/images/food-5.png"
-                        alt=""
-                        class="border-2 border-scotchy-black w-full h-72 object-cover" />
-                    </div>
-                    <div
-                      class="relative flex flex-col gap-8 items-center blog-details py-2 justify-center">
-                      <h3
-                        class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
-                        Indiana Minority Business Magazine
-                      </h3>
-                      <div
-                        class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
-                        <span
-                          class="tabletlg:text-base text-sm text-scotchy-black font-normal"
-                          >Aug 14,2024
-                        </span>
-                        <img
-                          src="assets/images/donut-bg-brown.svg"
-                          class="w-12 rounded-full absolute right-3 z-0 top-9" />
-
-                        <a
-                          href=""
-                          class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold">
-                          Read Article <i class="fa fa-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <?php endforeach; ?>
               </div>
 
               <div class="swiper-button-prev">
@@ -820,200 +682,74 @@
           class="absolute -left-5 bottom-0 origin-center" />
       </section> -->
     </main>
-    <footer
-      class="relative z-0 py-10 mx-auto flex flex-col items-center justify-between">
-      <div
-        class="bg-gradient-to-r to-[#079B3BA6] from-[#F8CB00A6] absolute top-0 bottom-0 left-0 right-0 -z-20 w-full h-full"></div>
-      <div
-        class="bg-[#000000] absolute top-0 bottom-0 left-0 right-0 -z-10 bg-opacity-70 w-full h-full"></div>
-      <div
-        class="footer container lg:gap-20 gap-10 flex mobilemd:flex-row flex-col sm:justify-evenly justify-center px-4 mx-auto mobilelg:flex-nowrap flex-wrap">
-        <div
-          class="flex flex-col mobilesm:gap-5 gap-3 lg:w-4/12 tabletlg:w-3/12 sm:w-3/12 w-8/12">
-          <h1 class="scotchy-footer--title">Quicklinks</h1>
-
-          <a href="index.html" class="scotchy-footer--links">Home</a>
-          <a href="menu.html" class="scotchy-footer--links">Menu</a>
-
-          <a class="scotchy-footer--links" href="about.html">About Us</a>
-          <a class="scotchy-footer--links" href="#">Blog</a>
-          <a href="contact.html" class="scotchy-footer--links">Contact Us</a>
-        </div>
-        <div
-          class="flex flex-col mobilesm:gap-5 gap-3 lg:w-4/12 tabletlg:w-5/12 sm:w-5/12 w-8/12">
-          <h1 class="scotchy-footer--title">Contacts</h1>
-          <a href="tel:317 445 8795" class="scotchy-footer--links"
-            >Phone No: 317 445 8795</a
-          >
-          <a href="" class="scotchy-footer--links"
-            >Address: 9713 District N Dr Suite #1210, Fishers, In 46037</a
-          >
-          <a href="mailto:info@scotchygrill.com" class="scotchy-footer--links"
-            >Email:info@scotchygrill.com</a
-          >
-        </div>
-        <div
-          class="flex flex-col mobilesm:gap-5 gap-3 lg:w-4/12 tabletlg:w-4/12 sm:w-8/12 w-8/12">
-          <div class="mobilelg:w-3/12 w-3/12">
-            <img
-              src="assets/icons/fav-icon.png"
-              class="w-full h-full mobilesm:self-center"
-              alt="" />
-          </div>
-          <div class="w-full">
-            <span class="scotchy-footer--title">Scotchy Jamaican Grill</span>
-            <p class="scotchy-footer--links text-base tabletlg:text-start w-80">
-              A Jamaican Grill restaurant that aims to disrupt the fast-casual with flavour and culture.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        class="text-base scotchy-footer--links text-center tabletmd:mt-12 mt-10 mobilesm:w-full w-11/12">
-        <p>
-          Copyrights &copy; 2024 Scotchy Jamaican Grill. All Rights Reserved.
-        </p>
-      </div>
-    </footer>
-    <script type="module">
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        effect: "coverflow",
-        direction: "horizontal",
-        loop: true,
-        centeredSlides: true,
-        centerInsufficientSlides: true,
-        grabCursor: true,
-        slidesPerView: "3",
-
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 200,
-          modifier: 1,
-          slideshadows: "true",
-          scale: 1,
-        },
-
-        autoplay: {
-          delay: 5000,
-        },
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        breakpoints: {
-          // when window width is >= 320px
-          320: {
-            slidesPerView: 1.2,
-            spaceBetween: 50,
-          },
-          // when window width is >= 480px
-          480: {
-            slidesPerView: 1.2,
-            spaceBetween: 50,
-          },
-          567: {
-            slidesPerView: 1.5,
-            spaceBetween: 80,
-          },
-          // when window width is >= 640px
-          640: {
-            slidesPerView: 1.5,
-            spaceBetween: 100,
-          },
-          800: {
-            slidesPerView: 2,
-            spaceBetween: 100,
-          },
-          992: {
-            slidesPerView: 2.5,
-            spaceBetween: 100,
-          },
-        },
-      });
-      const swiper2 = new Swiper(".swiper2", {
-        pagination: ".swiper-pagination2",
-        paginationClickable: true,
-        // Optional parameters
-        effect: "coverflow",
-        direction: "horizontal",
-        loop: true,
-        crossfade: true,
-        centeredSlides: true,
-        centerInsufficientSlides: true,
-        grabCursor: true,
-        slidesPerView: "3",
-
-        // perSlideOffset: 8,
-        // perSlideRotate: 2,
-        // rotate: true,
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 200,
-          modifier: 1,
-          slideshadows: "true",
-          scale: 1,
-        },
-
-        autoplay: {
-          delay: 5000,
-        },
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination2",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        breakpoints: {
-          // when window width is >= 320px
-          // when window width is >= 320px
-          320: {
-            slidesPerView: 1.2,
-            spaceBetween: 50,
-          },
-          // when window width is >= 480px
-          480: {
-            slidesPerView: 1.2,
-            spaceBetween: 50,
-          },
-          567: {
-            slidesPerView: 1.5,
-            spaceBetween: 80,
-          },
-          // when window width is >= 640px
-          640: {
-            slidesPerView: 1.5,
-            spaceBetween: 100,
-          },
-          800: {
-            slidesPerView: 2,
-            spaceBetween: 100,
-          },
-          992: {
-            slidesPerView: 2.5,
-            spaceBetween: 100,
-          },
-        },
-      });
-    </script>
     <script>
-      AOS.init();
+    //  create a load event listener
+
+      const CONTENTFUL_BASE_URL = "https://cdn.contentful.com";
+      const CONTENTFUL_SPACE_ID = "xyx3qihk2z0u";
+      const CONTENT_LIST_TOKEN = "P31txDdPNpo5Dd8Jsne8hzEaSa35lba4lUDQ3tjkzws";
+      
+     const myHeaders = new Headers();
+      myHeaders.append("Authorization", `Bearer ${CONTENT_LIST_TOKEN}`);
+
+      const requestOptions = {
+        method: "GET",
+        headers: myHeaders,
+        redirect: "follow"
+      };
+
+      // document.addEventListener("DOMContentLoaded", () => {
+        
+      //   fetch(`${CONTENTFUL_BASE_URL}/spaces/${CONTENTFUL_SPACE_ID}/environments/Production/entries?content_type=scotchyGrillExternalArticle`, requestOptions)
+      //     .then((response) => response.json())
+      //     .then((data) => {
+      //       let dom = ``;
+      //       data.items.forEach((item) => { 
+      //         dom += `<div class="swiper-slide">
+      //             <div class="w-full h-full">
+      //               <div class="w-full">
+      //                 <img
+      //                   src="assets/images/food-6.png"
+      //                   alt=""
+      //                   class="border-2 border-scotchy-black w-full h-72 object-cover" />
+      //               </div>
+      //               <div
+      //                 class="relative flex flex-col gap-8 items-center blog-details justify-center">
+      //                 <h3
+      //                   class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
+      //                   ${item.fields.title}
+      //                 </h3>
+      //                 <div
+      //                   class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
+      //                   <span
+      //                     class="tabletlg:text-base text-sm text-scotchy-black font-normal"
+      //                     >Aug 14,2024
+      //                   </span>
+      //                   <img
+      //                     src="assets/images/donut-bg-brown.svg"
+      //                     class="w-12 rounded-full absolute right-3 z-0 top-9" />
+
+      //                   <a
+      //                     href="${item.fields.link}"
+      //                     class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold">
+      //                     Read Article <i class="fa fa-arrow-right"></i>
+      //                   </a>
+      //                 </div>
+      //               </div>
+      //             </div>
+      //           </div>` ;
+              
+      //       })
+      //       // console.log(dom);
+      //       // console.log(document.querySelector("#blog-slider").innerHTML);
+            
+      //       // document.querySelector("#blog-slider").innerHTML = dom
+            
+      //     })
+      //     .catch((error) => console.log("error", error));
+      // })
+
+  
     </script>
-  </body>
-</html>
+<?php include_once 'components/footer.php'; ?>
+    

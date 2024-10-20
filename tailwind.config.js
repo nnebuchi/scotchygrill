@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
-    "./menu.html",
-    "./about.html",
-    "./contact.html",
+    "./components/navbar.php",
+    "./components/footer.php",
+    "./index.php",
+    "./menu.php",
+    "./about.php",
+    "./contact.php",
     "./src/script.js",
   ],
   theme: {

@@ -1387,6 +1387,10 @@ body {
   resize: none;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1565,11 +1569,6 @@ body {
 .border-scotchy-yellow-500 {
   --tw-border-opacity: 1;
   border-color: rgb(248 203 0 / var(--tw-border-opacity));
-}
-
-.border-red-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
 .bg-\[\#0000003d\] {
@@ -2052,7 +2051,7 @@ body {
 }
 
 .bg-address {
-  background-image: url("images/address.png");
+  background-image: url("../assets/images/address.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2060,7 +2059,7 @@ body {
 }
 
 .cook {
-  background-image: url("images/grill.jpg");
+  background-image: url("../assets/images/grill.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2099,14 +2098,14 @@ body {
 }
 
 .menu-wrapper {
-  background-image: url("images/menu-bg.png");
+  background-image: url("../assets/images/menu-bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .menu-details {
-  width: 70%;
+  width: 100%;
   margin: -50px auto 0 auto;
   height: 100px;
   background-color: var(--scotchy-yellow-400);
@@ -2121,14 +2120,14 @@ body {
 }
 
 .stride {
-  background-image: url("images/stride-bg.png");
+  background-image: url("../assets/images/stride-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .specials {
-  background-image: url("images/specials.png");
+  background-image: url("../assets/images/specials.png");
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #f8cb0048;
@@ -2137,7 +2136,7 @@ body {
 }
 
 .scotchy-testimonial {
-  background-image: url("images/milky-wave.png");
+  background-image: url("../assets/images/milky-wave.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2146,14 +2145,14 @@ body {
 }
 
 .bliss {
-  background-image: url("images/grid.png");
+  background-image: url("../assets/images/grid.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .mobile-hero-bg {
-  background-image: url("images/bg.jpg");
+  background-image: url("../assets/images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -2164,7 +2163,7 @@ body {
 }
 
 footer {
-  background-image: url("images/footer-bg.png");
+  background-image: url("../assets/images/footer-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2175,7 +2174,7 @@ footer {
 /* MENU PAGE */
 
 .menu-bg {
-  background-image: url("images/menu-hero.png");
+  background-image: url("../assets/images/menu-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -2188,35 +2187,35 @@ footer {
 }
 
 .menu-section {
-  background-image: url("images/menu-section.png");
+  background-image: url("../assets/images/menu-section.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bg-scotchy {
-  background-image: url("images/bg-jerky.png");
+  background-image: url("../assets/images/bg-jerky.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bg-fries {
-  background-image: url("images/bg-fries.png");
+  background-image: url("../assets/images/bg-fries.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bg-extra {
-  background-image: url("images/bg-extra.png");
+  background-image: url("../assets/images/bg-extra.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .menu-bliss {
-  background-image: url("images/menu-bliss.png");
+  background-image: url("../assets/images/menu-bliss.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2236,7 +2235,7 @@ footer {
 /* CONTACT PAGE */
 
 .contact-bg {
-  background-image: url("images/contact-hero-bg.png");
+  background-image: url("../assets/images/contact-hero-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -2248,7 +2247,7 @@ footer {
 }
 
 .contact-section {
-  background-image: url("images/contact-section.png");
+  background-image: url("../assets/images/contact-section.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2261,7 +2260,7 @@ footer {
 /* ABOUT */
 
 .about-bg {
-  background-image: url("images/about-hero.png");
+  background-image: url("../assets/images/about-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2274,7 +2273,7 @@ footer {
 }
 
 .disrupt-bg {
-  background-image: url("images/disrupt-bg.png");
+  background-image: url("../assets/images/disrupt-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2324,6 +2323,11 @@ footer {
   position: absolute;
 }
 
+.menu-food{
+  height: 263px!important;
+  width: 100%!important;
+}
+
 @media screen and (max-width: 1200px) {
   .swiper2 .swiper-button-prev,
   .swiper2 .swiper-button-next {
@@ -2350,12 +2354,6 @@ footer {
 
   .swiper-button-next {
     right: 490px !important;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .menu-details {
-    width: 80%;
   }
 }
 
@@ -2391,6 +2389,10 @@ footer {
   .swiper2 .swiper-button-next {
     right: 300px !important;
   }
+
+  .menu-details {
+    height: 70px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -2412,6 +2414,11 @@ footer {
   .swiper-button-prev,
   .swiper-button-next {
     top: 380px !important;
+  }
+
+  .menu-food{
+    height: 200px!important;
+    width: 100%!important;
   }
 }
 
@@ -2626,6 +2633,17 @@ footer {
   background-color: rgb(248 203 0 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 345px) {
+  .mobilexxs\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobilexxs\:w-full {
+    width: 100%;
+  }
+}
+
 @media (min-width: 375px) {
   .mobilexs\:px-2 {
     padding-left: 0.5rem;
@@ -2787,11 +2805,6 @@ footer {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .mobilesm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 567px) {
@@ -2823,6 +2836,10 @@ footer {
 
   .mobilemd\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .mobilemd\:w-4\/12 {
+    width: 33.333333%;
   }
 
   .mobilemd\:w-6\/12 {
@@ -3178,6 +3195,11 @@ footer {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .tabletmd\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -3380,10 +3402,6 @@ footer {
 
   .laptopmd\:w-6\/12 {
     width: 50%;
-  }
-
-  .laptopmd\:flex-row {
-    flex-direction: row;
   }
 
   .laptopmd\:gap-28 {

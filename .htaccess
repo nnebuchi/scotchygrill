@@ -1,0 +1,9 @@
+# Enable RewriteEngine
+RewriteEngine On
+
+# Check if the requested file does not exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Automatically append .php extension to the URL
+RewriteRule ^(.+)$ $1.php [L]
