@@ -313,7 +313,7 @@
                 >See more of our delicious menu</span
               >
               <a
-                href="menu.php"
+                href="menu"
                 class="scotchy-btn-menu mobilesm:w-5/12 w-8/12 flex items-center justify-center gap-5 relative">
                 See full menu
                 <i

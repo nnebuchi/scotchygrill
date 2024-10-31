@@ -2235,7 +2235,7 @@ footer {
 /* CONTACT PAGE */
 
 .contact-bg {
-  background-image: url("../assets/images/contact-hero-bg.png");
+  background-image: url("../assets/images/scotchygrill-restaurant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -2919,6 +2919,10 @@ footer {
 }
 
 @media (min-width: 640px) {
+  .sm\:min-h-20 {
+    min-height: 5rem;
+  }
+
   .sm\:w-11\/12 {
     width: 91.666667%;
   }
@@ -2937,6 +2941,10 @@ footer {
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:w-14 {
+    width: 3.5rem;
   }
 
   .sm\:justify-evenly {
@@ -3090,6 +3098,12 @@ footer {
   .mobilelg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-10 {
+    width: 2.5rem;
   }
 }
 

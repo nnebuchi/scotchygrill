@@ -1,8 +1,9 @@
 <?php include_once 'components/navbar.php'; ?>
   <main class="">
-    <section class="mx-auto w-full contact-bg">
-      <div
-        class="tabletmd:w-7/12 w-10/12 mx-auto h-full flex items-center justify-center">
+    <section class="mx-auto w-full contact-bg relative">
+      
+      <div class="contact-overlay" style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color:black; opacity: 0.7; z-index:1;"></div>
+      <div class="tabletmd:w-7/12 w-10/12 mx-auto h-full flex items-center justify-center" style="z-index: 2;">
         <article
           class="flex flex-col mobilemd:gap-5 gap-3 items-center mt-32">
           <h1
@@ -17,7 +18,7 @@
           </p>
           <a href="#contact" class="mobilesm:mt-10 mt-5">
             <button
-              class="cursor-pointer min-h-20 w-14 border-scotchy-yellow-500 py-2 rounded-full border-2">
+              class="cursor-pointer min-h-15 w-10 sm:min-h-20 sm:w-14 border-scotchy-yellow-500 py-2 rounded-full border-2">
               <div class="flex flex-col justify-center items-center gap-2">
                 <div
                   class="flex flex-col justify-center items-center gap-2 mt-2">
