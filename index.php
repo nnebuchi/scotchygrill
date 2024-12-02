@@ -516,7 +516,7 @@
                     ?>
                       
                   
-                    <div class="swiper-slide">
+                    <div class="swiper-slide ">
                       <div class="w-full h-full">
                         <div class="w-full">
                           <img
@@ -681,6 +681,7 @@
           alt=""
           class="absolute -left-5 bottom-0 origin-center" />
       </section> -->
+      
     </main>
     <script>
     //  create a load event listener

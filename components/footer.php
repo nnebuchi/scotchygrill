@@ -163,16 +163,16 @@
           // when window width is >= 320px
           // when window width is >= 320px
           320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 50,
           },
           // when window width is >= 480px
           480: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 50,
           },
           567: {
-            slidesPerView: 1.5,
+            slidesPerView: 1,
             spaceBetween: 80,
           },
           // when window width is >= 640px
@@ -186,6 +186,156 @@
           },
           992: {
             slidesPerView: 2.5,
+            spaceBetween: 100,
+          },
+        },
+      });
+      const swiper3 = new Swiper(".swiper3", {
+        pagination: ".swiper-pagination3",
+        paginationClickable: true,
+        // Optional parameters
+        effect: "coverflow",
+        direction: "horizontal",
+        loop: false,
+        crossfade: true,
+        centeredSlides: false,
+        centerInsufficientSlides: false,
+        grabCursor: true,
+       
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          // slideshadows: "false",
+          scale: 1,
+        },
+
+        autoplay: {
+          delay: 5000,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination3",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next3",
+          prevEl: ".swiper-button-prev3",
+        },
+
+        breakpoints: {
+          // when window width is >= 320px
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          345: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          567: {
+            slidesPerView: 1,
+            spaceBetween: 80,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 100,
+          },
+          // 767: {
+          //   slidesPerView: 1.2,
+          //   spaceBetween: 100,
+          // },
+          800: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          992: {
+            slidesPerView:1.2,
+            spaceBetween: 100,
+          },
+        },
+      });
+      const swiper4 = new Swiper(".swiper4", {
+        pagination: ".swiper-pagination4",
+        paginationClickable: true,
+        // Optional parameters
+        effect: "coverflow",
+        direction: "horizontal",
+        loop: true,
+        crossfade: true,
+        centeredSlides: true,
+        centerInsufficientSlides: true,
+        grabCursor: true,
+        // slidesPerView: "2",
+
+        // perSlideOffset: 8,
+        // perSlideRotate: 2,
+        // rotate: true,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideshadows: "false",
+          scale: 1,
+        },
+
+        autoplay: {
+          delay: 5000,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination4",
+           clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          // when window width is >= 320px
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.2,
+            spaceBetween: 50,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1.2,
+            spaceBetween: 50,
+          },
+          567: {
+            slidesPerView: 1.2,
+            spaceBetween: 80,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1.5,
+            spaceBetween: 100,
+          },
+          800: {
+            slidesPerView: 1.8,
+            spaceBetween: 50,
+          },
+          992: {
+            slidesPerView:2.5,
             spaceBetween: 100,
           },
         },

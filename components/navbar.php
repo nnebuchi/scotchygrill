@@ -1,3 +1,4 @@
+<?php include_once('utils/helpers.php')?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +34,7 @@
     <link rel="stylesheet" href="assets/aos-master/dist/aos.css" />
     <link rel="stylesheet" href="assets/aos-master/dist/aos.js" />
     <script src="assets/swiper/package/swiper-bundle.js" defer></script>
-    <script src="src/script.js" defer></script>
+    <script src="<?=baseUrl()?>src/script.js" defer></script>
     <title>Scotchy Grill || Cath Ah Vibe!!</title>
   </head>
   <body class="relative">
@@ -55,12 +56,12 @@
             <a href="contact" class="scotchy-navlinks">Contact us</a>
           </li>
           <li>
-            <a href="#" class="scotchy-navlinks">Blog</a>
+            <a href="blog" class="scotchy-navlinks">Blog</a>
           </li>
         </ul>
         <button
           class="scotchy-btn-primary tabletmd:w-2/12 w-4/12 mobilemd:block hidden">
-          Book
+          Order Now
         </button>
         <button
           class="scotchy-btn-primary mobilelg:w-1/12 w-2/12 tabletmd:hidden block scotchy-burger">
@@ -98,12 +99,12 @@
             >
           </li>
           <li>
-            <a href="#" class="scotchy-navlinks text-scotchy-black"
+            <a href="blog" class="scotchy-navlinks text-scotchy-black"
               >Blog</a
             >
           </li>
-          <button class="scotchy-btn-primary w-8/12">Book</button>
+          <button class="scotchy-btn-primary w-8/12">Order Now</button>
         </ul>
       </div>
     </div>
- 
+   

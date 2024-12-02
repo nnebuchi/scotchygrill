@@ -7,6 +7,7 @@ module.exports = {
     "./menu.php",
     "./about.php",
     "./contact.php",
+    "./blog.php",
     "./src/script.js",
   ],
   theme: {

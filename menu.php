@@ -60,30 +60,49 @@
                       class="object-cover rounded-t-3xl menu-food" />
                   </div>
                   <div
-                    class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold"> Jerk Chicken </h3>
-                    <div>
-                      <img
-                        src="assets/images/polygon-red.svg"
-                        class="absolute right-3 inset-y-6 rotate-12 z-10"
-                        alt="" /><img
-                        src="assets/images/polygon-green.svg"
-                        class="absolute right-3 inset-y-6"
-                        alt="" />
+                    class=" flex flex-col gap-3 items-center justify-center menu-details relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold"> Jerk Chicken </h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 w-5/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
                 </div>
                 <div class="w-full h-full">
                   <div class="rounded-t-3xl tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
                     <img src="assets/images/menu/jerk-pork-.png" alt="" class="object-cover rounded-t-3xl menu-food" />
                   </div>
-                  <div
-                    class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3 class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">Jerk Pork </h3>
-                    <div>
-                      <img src="assets/images/polygon-red.svg" class="absolute right-3 inset-y-6 rotate-12 z-10" alt="" />
-                      <img src="assets/images/polygon-green.svg" class="absolute right-3 inset-y-6" alt="" />
+                 <div
+                    class=" flex flex-col gap-3 items-center justify-center menu-details relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold"> Jerk Pork </h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 w-5/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
                 </div>
               </div>
@@ -95,80 +114,134 @@
                 <span class="scotchy-menu-title text-white">Scotchy Sides</span>
                 <img src="assets/images/fork-fries.png" class="w-10 h-10" alt="" />
               </div>
-              <div class="scotchy-menu-images flex mobilemd:flex-row flex-col flex-wrap justify-between  mobilelg:gap-14 gap-7">
-                <div class="tabletlg:w-3/12 mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
+              <div class="scotchy-menu-images flex mobilemd:flex-row flex-col flex-wrap items-center justify-between  mobilelg:gap-10 gap-7  w-full">
+                <div class="tabletlg:w-3/12  flex-col flex items-center justify-center  mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
                   <div class="rounded-t-3xl tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
                     <img src="assets/images/menu/jamaican-steamed-cabbage-.png" alt="" class="object-cover rounded-t-3xl menu-food"/>
                   </div>
-                  <div class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3
-                      class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">
-                      Sauteed Cabbage & Bok Choy
-                    </h3>
-                    <div>
-                      <img src="assets/images/polygon-red.svg" class="absolute right-3 inset-y-6 rotate-12 z-10" alt="" />
-                      <img src="assets/images/polygon-green.svg" class="absolute right-3 inset-y-6" alt="" />
+                 
+                   <div
+                    class=" flex flex-col gap-3 items-center justify-center menu-details relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">  Sauteed Cabbage & Bok Choy </h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 w-5/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
                 </div>
                 
-                <div class="tabletlg:w-3/12 mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
+                <div class="tabletlg:w-3/12  flex-col flex items-center justify-center  mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
                   <div class="rounded-t-3xl tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
                     <img src="assets/images/menu/crab-fritters-.png" alt="" class="object-cover rounded-t-3xl menu-food"/>
                   </div>
-                  <div class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3
-                      class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">
-                      Cod Fish & Lump Crab Fritters
-                    </h3>
-                    <div>
-                      <img src="assets/images/polygon-red.svg" class="absolute right-3 inset-y-6 rotate-12 z-10" alt="" />
-                      <img src="assets/images/polygon-green.svg" class="absolute right-3 inset-y-6" alt="" />
+                  <div
+                    class=" flex flex-col gap-3 items-center justify-center menu-details relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">  Cod Fish & Lump Crab Fritters</h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 w-5/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
+                
                 </div>
-                <div class="tabletlg:w-3/12 mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
+                <div class="tabletlg:w-3/12  flex-col flex items-center justify-center  mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
                   <div class="rounded-t-3xl tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
                     <img src="assets/images/menu/beans-and-peas.png" alt="" class="object-cover rounded-t-3xl menu-food"/>
                   </div>
-                  <div class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3
-                      class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">
-                      Rice and Peas
-                    </h3>
-                    <div>
-                      <img src="assets/images/polygon-red.svg" class="absolute right-3 inset-y-6 rotate-12 z-10" alt="" />
-                      <img src="assets/images/polygon-green.svg" class="absolute right-3 inset-y-6" alt="" />
+                  <div
+                    class=" flex flex-col gap-3 items-center justify-center menu-details relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">  Rice and Peas</h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 w-5/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
                 </div>
-                <div class="tabletlg:w-3/12 mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
+                <div class="tabletlg:w-3/12  flex-col flex items-center justify-center  mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
                   <div class="rounded-t-3xl tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
                     <img src="assets/images/menu/fried-plantain.png" alt="" class="object-cover rounded-t-3xl menu-food"/>
                   </div>
-                  <div class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3 class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold"> Fried Plantain
-                    </h3>
-                    <div>
-                      <img src="assets/images/polygon-red.svg" class="absolute right-3 inset-y-6 rotate-12 z-10" alt="" />
-                      <img src="assets/images/polygon-green.svg" class="absolute right-3 inset-y-6" alt="" />
+                   <div
+                    class=" flex flex-col gap-3 items-center justify-center menu-details relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">Fried Plantain</h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 w-5/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
                 </div>
 
-                <div class="tabletlg:w-3/12 mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
+                <div class="tabletlg:w-3/12  flex-col flex items-center justify-center  mobilelg:w-5/12 mobilemd:w-4/12 mobilexxs:w-full h-full mobilexxs:mx-auto">
                   <div class="rounded-t-3xl tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
                     <img src="assets/images/menu/fried-festivals.png" alt="" class="object-cover rounded-t-3xl menu-food"/>
                   </div>
-                  <div class="relative flex flex-row px-2 items-center menu-details justify-center tabletlg:w-96 mobilelg:w-80 mobilemd:w-64 w-80">
-                    <h3
-                      class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">
-                      Fried Festivals
-                    </h3>
-                    <div>
-                      <img src="assets/images/polygon-red.svg" class="absolute right-3 inset-y-6 rotate-12 z-10" alt="" />
-                      <img src="assets/images/polygon-green.svg" class="absolute right-3 inset-y-6" alt="" />
+                    <div
+                    class=" flex flex-col gap-3 items-center justify-center menu-details  relative px-2    w-80 tabletlg:w-96 mobilelg:w-80 mobilemd:w-64">
+                    <div class="flex  items-center justify-center">
+
+                      <h3  class="text-scotchy-green-400 tabletmd:text-xl text-sm font-bold">Fried Festivals</h3>
+                      <div>
+                        <img
+                          src="assets/images/polygon-red.svg"
+                          class="absolute right-3 inset-y-6 rotate-12 z-10"
+                          alt="" /><img
+                          src="assets/images/polygon-green.svg"
+                          class="absolute right-3 inset-y-6"
+                          alt="" />
+                      </div>
                     </div>
+                      <button
+                        class=" orderbtn scotchy-btn-primary tabletmd:w-7/12 mobilemd:w-10/12 w-4/12 h-10 ">
+                        Order Now
+                      </button>
                   </div>
                 </div>
               </div>
@@ -234,6 +307,74 @@
           alt=""
           class="absolute bottom-5 tabletlg:right-[545px] mobilelg:right-[320px] right-10" />
       </section>
+      <div class="scotchy-orderModal-overlay hidden">
+        <div class="scotchy-orderModal hidden">
+          <span class="fa fa-close scotchy-modal-close text-scotchy-red-600 text-3xl absolute right-0 top-0 cursor-pointer"></span>
+          <div class="scotchy-orderModal-content w-12/12">
+              <h1 class="scotchy-modal-title scotchy-heading-black text-lg text-center">Order Details</h1>
+              <form class="scotchy-modal-form gap-4 w-full">
+                <div class="flex text-start justify-between">
+                  <div class="">
+                    <label for="" class="order-label">Meal Name</label><br>
+                    <input type="text" value="Jerky Chicken" class="scotchy-modal-input ">
+                  </div>
+                  <div>
+                    <label for="" class="order-label">Quantity</label><br>
+                    <div class="flex gap-2 items-center">
+                      <span class="fa fa-minus text-sm cursor-pointer bg-[#079B3B1A] p-1 rounded-full"></span>
+                      <p>0</p>
+                       <span class="fa fa-plus text-sm cursor-pointer bg-[#079B3B1A] p-1 rounded-full"></span>
+                    </div>
+                  </div>
+                </div>
+                 <div>
+                  <label for="" class="order-label">Description(Optional)</label>
+                  <textarea name="description" id="" class="scotchy-modal-input   resize-none" placeholder="make a additional note"></textarea>
+                 </div>
+                  <div>
+                    <label for="" class="order-label">Address</label><br>
+                    <input type="text" placeholder="Enter delivery address" name="address" class="scotchy-modal-input">
+                  </div>
+               
+                  <div>
+                    <label for="" class="order-label">Phone Number</label><br>
+                    <input type="tel" placeholder="Enter phone number" name="phone" class="scotchy-modal-input">
+                  </div>
+                  <div>
+                    <label for="" class="order-label">Email</label><br>
+                    <input type="email" placeholder="Enter email address" name="email" class="scotchy-modal-input">
+                  </div>
+               
+                  
+                  <div class="order-summary flex flex-col gap-5 ">
+                    <div class="flex flex-col gap-2 ">
+                      <div class="flex items-center justify-between mobilemd:w-7/12 w-9/12">
+
+                        <span class="text-sm">Price</span><span class="font-semibold text-black text-sm">$350.0</span>
+                      </div>
+                      <div class="flex items-center justify-between mobilemd:w-7/12 w-9/12">
+
+                        <span class="text-sm">Delivery Charges</span><span class="font-semibold text-black text-sm">$350.0</span>
+                      </div>
+                      <div class="flex items-center justify-between mobilemd:w-7/12 w-9/12">
+
+                        <span class="font-semibold text-base">Total</span><span class="font-semibold text-black text-sm bg-scotchy-yellow-400 p-2 rounded-lg">$350.0</span>
+                      </div>
+                    </div>
+                    <button
+                      class="scotchy-btn-primary self-center transition-all group ease-in-out duration-300 rounded-xl text-start relative text-scotchy-green-400 lg:w-8/12 tabletlg:w-7/12 tabletmd:w-7/12 mobilemd:w-8/12 mobilesm:w-8/12 w-11/12 font-semibold px-4 h-12 ">
+                      <span
+                        class="h-8 w-8 rounded-full bg-scotchy-yellow-400 group-hover:bg-scotchy-yellow-500 absolute right-5 bottom-2 z-0"></span>
+                            Pay with Paypal
+                      <span
+                        class="fa fa-long-arrow-right text-scotchy-green-400 text-2xl z-10 absolute right-9"></span>
+                    </button>
+
+              </div>
+              </form>
+          </div>
+        </div>
+      </div>
     </main>
 <?php include_once 'components/footer.php'; ?>
 
