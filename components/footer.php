@@ -10,12 +10,12 @@
           class="flex flex-col mobilesm:gap-5 gap-3 lg:w-4/12 tabletlg:w-3/12 sm:w-3/12 w-8/12">
           <h1 class="scotchy-footer--title">Quicklinks</h1>
 
-          <a href="index.html" class="scotchy-footer--links">Home</a>
-          <a href="menu.html" class="scotchy-footer--links">Menu</a>
+          <a href="index" class="scotchy-footer--links">Home</a>
+          <a href="menu" class="scotchy-footer--links">Menu</a>
 
-          <a class="scotchy-footer--links" href="about.html">About Us</a>
-          <a class="scotchy-footer--links" href="#">Blog</a>
-          <a href="contact.html" class="scotchy-footer--links">Contact Us</a>
+          <a class="scotchy-footer--links" href="about">About Us</a>
+          <a class="scotchy-footer--links" href="blog">Blog</a>
+          <a href="contact" class="scotchy-footer--links">Contact Us</a>
         </div>
         <div
           class="flex flex-col mobilesm:gap-5 gap-3 lg:w-4/12 tabletlg:w-5/12 sm:w-5/12 w-8/12">

@@ -61,7 +61,10 @@
         </ul>
         <button
           class="scotchy-btn-primary tabletmd:w-2/12 w-4/12 mobilemd:block hidden">
-          Order Now
+          <a href="menu">
+
+            Order Now
+          </a>
         </button>
         <button
           class="scotchy-btn-primary mobilelg:w-1/12 w-2/12 tabletmd:hidden block scotchy-burger">
