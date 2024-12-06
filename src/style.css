@@ -235,57 +235,37 @@
   right: 500px !important;
 }
 
+.blog-hero {
+  background-image: url("../assets/images/about-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: #1e1e1ea4;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
 .bg-blog {
   background-color: #faf9f7;
   width: 100%;
   min-height: 400px;
 }
-.swiper4 .swiper-button-next {
-  right: 530px !important;
-}
 
+.swiper4 .bg-active {
+  background-color: #079e3c33;
+  color: #01571f;
+  font-weight: 600;
+}
 .swiper4 {
   width: 90%;
   height: 100%;
-  /* padding-block: 50px; */
 }
 
-.swiper4 .swiper-wrapper {
-  width: 100% !important;
-}
-.swiper4 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-.swiper4 .swiper-button-prev,
-.swiper4 .swiper-button-next {
-  position: absolute !important;
-  top: 850px !important;
-  background-color: transparent;
-}
-.swiper4 .swiper-button-prev {
-  left: 400px !important;
-}
-
-.swiper4 .swiper-button-next {
-  right: 400px !important;
-}
-
-.swiper4 .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 12px;
-  color: #000;
-  opacity: 1;
-  background: transparent;
-}
-
-.swiper4 .swiper-pagination-bullet-active {
-  color: var(--scotchy-green-500);
-  background: #079e3c33;
+.swiper4 .w-33 {
+  width: 31%;
 }
 
 .swiper-button-prev::after {
@@ -656,6 +636,10 @@ footer {
   .menu-details {
     height: 150px;
   }
+
+  .swiper4 .w-33 {
+    width: 45%;
+  }
 }
 @media screen and (max-width: 768px) {
   .swiper-button-prev,
@@ -681,6 +665,10 @@ footer {
     height: 200px !important;
     width: 100% !important;
   }
+
+  .swiper4 .w-33 {
+    width: 47%;
+  }
 }
 @media screen and (max-width: 567px) {
   .swiper-button-prev,
@@ -701,12 +689,8 @@ footer {
     right: 500px !important;
   }
 
-  .swiper4 .swiper-button-prev {
-    left: 500px !important;
-  }
-
-  .swiper4 .swiper-button-next {
-    right: 500px !important;
+  .swiper4 .w-33 {
+    width: 48%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -734,11 +718,8 @@ footer {
   .swiper3 .swiper-button-next {
     right: 250px !important;
   }
-  .swiper4 .swiper-button-prev {
-    left: 300px !important;
-  }
-  .swiper4 .swiper-button-next {
-    right: 300px !important;
+  .swiper4 .w-33 {
+    width: 80%;
   }
 }
 @media screen and (max-width: 375px) {
@@ -769,12 +750,6 @@ footer {
   }
   .swiper3 .swiper-button-next {
     right: 250px !important;
-  }
-  .swiper4 .swiper-button-prev {
-    left: 200px !important;
-  }
-  .swiper4 .swiper-button-next {
-    right: 200px !important;
   }
 }
 

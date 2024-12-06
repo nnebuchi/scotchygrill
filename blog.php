@@ -1,6 +1,6 @@
 <?php include_once 'components/navbar.php'; ?>
     <main class="">
-      <section class="mx-auto w-full about-bg min-h-[600px]">
+      <section class="mx-auto w-full blog-hero ">
         <div
           class="tabletmd:w-7/12 sm:w-11/12 mobilemd:w-full mobilesm:w-10/12 w-11/12 mx-auto h-full flex items-center justify-center">
           <article
@@ -203,8 +203,8 @@
                 <div class="mobilemd:w-20 w-10"><img src="assets/images/arrow.png" alt=""></div>
               </article>
 
-             <div class="swiper swiper4 ">
-                <div class="swiper-wrapper w-full " id="blog-slider">
+             <div class=" swiper4 flex flex-col mx-auto justify-center  ">
+                <div class="flex mobilemd:justify-between justify-center items-center w-full flex-wrap" id="blog-slider">
                   <?php
                     function getContentCoverImage($cover_photo_id) {
                       $img_url = null;
@@ -274,7 +274,7 @@
                       }
                     ?>
 
-                      <div class="swiper-slide ">
+                      <div class="w-33  ">
                         <div class="flex flex-col mb-10">
                           <div class="w-full h-full">
                             <div class="w-full">
@@ -310,52 +310,22 @@
                             </div>
                           </div>
                         </div>
-                        <div class="flex flex-col">
-                          <div class="w-full h-full">
-                            <div class="w-full">
-                              <img
-                                src="<?=$image?> "
-                                alt=""
-                                class="w-full h-72 object-cover" />
-                            </div>
-                            <div
-                              class="relative flex flex-col gap-8 items-center blog-details justify-center">
-                              <h3
-                                class="text-scotchy-black mmobilesm:text-xl text-center text-lg font-semibold">
-                                <?=$item->fields->title?>
-                              </h3>
-                              <div
-                                class="flex items-center justify-between laptopmd:gap-28 lg:gap-10 gap-10">
-                                <span
-                                  class="tabletlg:text-base text-sm text-scotchy-black font-normal"
-                                  ><?= $formattedDate?>
-                                </span>
-                                <img
-                                  src="assets/images/donut-bg-brown.svg"
-                                  class="w-12 rounded-full absolute right-3 z-0 top-9" />
-    
-                                <a 
-                                  href="<?=$item->fields->link?>" 
-                                  target="_blank" 
-                                  class="tabletlg:text-base text-sm z-10 underline text-red-500 font-semibold"
-                                >
-                                  Read Article <i class="fa fa-arrow-right"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                       
                       </div>
                   <?php endforeach; ?>
                 </div>
-                <div class="mb-10">
+                <div class="my-10 flex items-center justify-center gap-2 ">
 
-                    <div class="swiper-button-prev">
+                    <div class="previous">
                       <span
                         class="fa fa-arrow-left text-white bg-scotchy-green-400 shadow-lg px-3 py-3 text-xl rounded-full hover:bg-white hover:ring-2 hover:ring-scotchy-green-400 hover:text-scotchy-green-400"></span>
                     </div>
-                    <div class="swiper-pagination4  flex justify-center mt-10"></div>
-                    <div class="swiper-button-next">
+                    <div class="pagination flex justify-center">
+                      <span class="w-6 h-6 rounded-full bg-active flex items-center justify-center cursor-pointer">1</span>
+                      <span class="w-6 h-6 rounded-full text-scotchy-black text-sm font-normal flex items-center justify-center cursor-pointer  hover:font-bold hover:text-scotchy-green-500 hover:bg-[#079e3c33]">2</span>
+                      <span class="w-6 h-6 rounded-full text-scotchy-black text-sm font-normal flex items-center justify-center cursor-pointer  hover:font-bold hover:text-scotchy-green-500 hover:bg-[#079e3c33]">3</span>
+                    </div>
+                    <div class="next">
                       <span
                         class="fa fa-arrow-right text-white bg-scotchy-green-400 shadow-lg px-3 py-3 text-xl rounded-full hover:bg-white hover:ring-2 hover:ring-scotchy-green-400 hover:text-scotchy-green-400"></span>
                     </div>
